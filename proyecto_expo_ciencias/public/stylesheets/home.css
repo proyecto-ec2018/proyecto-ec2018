@@ -1,0 +1,85 @@
+.carousel .item {
+  height: 300px;
+}
+
+.item img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.cuerpo {
+  font-family: 'Roboto', sans-serif;
+}
+
+.proyectos {
+  background-color: #0f6bff;
+  border-radius: 5px !important;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+  padding: 20px;
+  /*padding-left: 10px;*/
+}
+
+.proyectos .wrap_button {
+  text-align: center;
+  vertical-align: center;
+}
+
+.escuelas {
+  background-color: #bcc600;
+  border-radius: 5px !important;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+  padding: 20px;
+  /*padding-left: 10px;*/
+}
+
+.escuelas .wrap_button {
+  text-align: center;
+  vertical-align: center;
+}
+
+.empresas {
+  background-color: #fc4128;
+  border-radius: 5px !important;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+  padding: 20px;
+  /*padding-left: 10px;*/
+}
+
+.empresas .wrap_button {
+  text-align: center;
+  vertical-align: center;
+}
+
+.cuerpo .boton_re {
+  background-color: transparent;
+  border-color: white;
+}
+
+.cuerpo .boton_re:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-color: white;
+}
+
+.recuadro_verde {
+  background-color: #07c133;
+  border-radius: 5px !important;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+  padding: 20px;
+  /*padding-left: 10px;*/
+}
+
+.recuadro_verde .wrap_button {
+  text-align: center;
+  vertical-align: center;
+}

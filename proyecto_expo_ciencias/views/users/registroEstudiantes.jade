@@ -1,0 +1,45 @@
+extends ../templates/default
+
+block content_head
+  link(rel="stylesheet" href="/stylesheets/registro-particular.css")
+
+block content
+  div(class="contenedor")
+    div(class="container")
+      div(class="row")
+        div(class="col-md-4 col-md-offset-4")
+          img(src="https://i1.wp.com/www.elblogdeyes.com/wp-content/uploads/calamardo1.jpg?fit=580%2C444" class="img-circle registro-img" alt="Cinque Terre")
+
+      h1(class="text-center")='Registro para estudiantes'
+
+      div(class="row")
+        div(class="col-md-6 col-md-offset-3")
+          div(class="panel panel-default")
+            div(class="panel-heading text-center" style="background-color:#07c133; color:white;")="Formato de registro"
+            div(class="panel-body")
+              form(action="" method="")
+                div(class="form-group")
+                  label(for="nombre")="Nombre: "
+                  input(type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control")
+                div(class="form-group")
+                  label(for="apellido")="Apellido: "
+                  input(type="text" name="apellido" id="apellido" placeholder="Apellidos" class="form-control")
+                div(class="form-group")
+                  label(for="email")="Correo electrónico: "
+                  input(type="email" name="email" id="email" placeholder="Correo electrónico" class="form-control")
+                div(class="form-group")
+                  label(for="pass")="Contraseña: "
+                  input(type="password" name="pass" id="pass" placeholder="Contraseña" class="form-control")
+                div(class="form-group")
+                  label(for="passVal")="Confirmar contraseña: "
+                  input(type="password" name="passVal" id="passVal" placeholder="Contraseña" class="form-control")
+                div(class="form-group")
+                  label(for="escuela")="Escuela de procendencia"
+                  select(class="form-control" id="escuela")
+                    option="Sin especificar"
+                    option="Universidad de Sonora"
+                    option="Instituto Tecnológico de Hermosillo"
+                    option="Universidad Tecnológica de Hermosillo"
+                    option="Centro de Bachillerato Tecnológico Industrial y de Servicios"
+                    option="Colegio de Bachilleres"
+                button(type="submit" class="btn btn-success")="Registrarme"

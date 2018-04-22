@@ -1,0 +1,23 @@
+extends ../templates/default
+
+block content_head
+  link(rel="stylesheet" href="stylesheets/registro.css")
+
+block content
+  div(class="contenedor")
+    div(class="container")
+      div(class="row")
+        div(class="col-md-4 col-md-offset-4")
+          img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle registro-img" alt="Cinque Terre")
+
+      h1(class="text-center" style="font-size: 50px;")='Antes que nada, yo soy ... '
+      
+      div(class="row")
+        div(class="col-md-4 col-md-offset-4")
+          div(class="row opciones-registro")
+            div(class="col-md-6")
+              h4(class="text-center")
+                a(href="http://localhost:3000/registro/estudiantes")="Un estudiante"
+            div(class="col-md-6")
+              h4(class="text-center")
+                a(href="http://localhost:3000/registro/instituciones")="Una institución"

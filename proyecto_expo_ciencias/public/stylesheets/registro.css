@@ -1,0 +1,29 @@
+.contenedor {
+	margin-top: 35px;
+}
+.registro-img{
+	text-align: center;
+	width: 200px; 
+	height: 200px;
+	margin: auto;
+	display: block;
+    margin: 0 auto;
+}
+
+.opciones-registro {
+	background-color: #f42e2e;
+	padding: 10px;
+	padding-bottom: 12px;
+	border-radius: 5px !important;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.opciones-registro a:link, a:visited, a:active{
+	color: white;
+}
+
+.opciones-registro a:hover{
+	color: white;
+	text-decoration: underline;
+}

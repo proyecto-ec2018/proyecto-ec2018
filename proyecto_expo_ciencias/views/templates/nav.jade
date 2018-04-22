@@ -1,0 +1,34 @@
+link(rel='stylesheet', href='/stylesheets/navbar.css')
+div
+  div(class="navbar navbar-default navbar_config")
+    div(class="container-fluid")
+      div(class="container")
+        div(class="navbar-header")
+          button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
+            span(class="sr-only")='Toggle navigation'
+            span(class="icon-bar")
+            span(class="icon-bar")
+            span(class="icon-bar")
+          a(class="navbar-brand" href="http://localhost:3000/")='CAT project'
+        div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
+          ul(class="nav navbar-nav navbar-right")
+            li
+              a(a href="http://localhost:3000/empresas-vistazo")='Empresas'
+            li
+              a(a href="http://localhost:3000/escuelas-vistazo")='Escuelas'
+            li
+              a(a href="http://localhost:3000/mision")='Misión'
+            li
+              a(a href="http://localhost:3000/vision")='Visión'
+            li(class="dropdown")
+              a(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" id="dropdownMenu1")='Ingreso'
+                span(class="caret")
+              ul(class="dropdown-menu" aria-labelledby="dropdownMenu1")
+                li
+                  a(href="http://localhost:3000/registro")
+                    span(class="glyphicon glyphicon-edit")
+                    =' Registro'
+                li
+                  a(href="http://localhost:3000/inicio-sesion")
+                    span(class="glyphicon glyphicon-log-in")
+                    =' Iniciar sesión'

@@ -1,0 +1,12 @@
+.contenedor {
+	margin-top: 35px;
+}
+
+.registro-img{
+	text-align: center;
+	width: 200px; 
+	height: 200px;
+	margin: auto;
+	display: block;
+    margin: 0 auto;
+}
