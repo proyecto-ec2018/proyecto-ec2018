@@ -20,15 +20,17 @@ block content
           div(class="item active")
             img(class="img-responsive center-block" src="http://www.mientrastantoenmexico.mx/wp-content/uploads/2017/01/Peje.jpg" alt="..." style="height: 100%; width:100%;")
             div(class="carousel-caption")
-              p='Este es AMLO'
+              p='Este es el último reto agregado'
+
           div(class="item")
             img(class="img-responsive center-block" src="https://lopezdorigabucket.s3.amazonaws.com/uploads/2017/02/meade-1.jpg" alt="..." style="height: 100%; width:100%;")
             div(class="carousel-caption")
-              p='Este es MEADE'
+              p='Este es el penúltimo reto agregado'
+
           div(class="item")
             img(class="img-responsive center-block" src="https://elbigdata.mx/wp-content/uploads/2016/10/1_ricardo_anaya_copia_1.jpg" alt="..." style="height: 100%; width:100%;")
             div(class="carousel-caption")
-              p='Este es ANAYA'
+              p='Este es el antepenúltimo reto agregado'
         
         <!-- Controls -->
         a(class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev")
@@ -43,65 +45,115 @@ block content
     <!-- Final carousel -->
 
     div(class="container")
+
+      <!--Panel con los circulos-->
+      div(class="row panel_circulos")
+        div(class="col-md-4")
+          h3(class="text-center")="Proyectos"
+          div(class="wrap_button")
+            img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
+            
+            p(text-justify)="No se si quieran poner una descripcion aca"
+
+            br
+            br
+            button(type="button" class="btn btn-success boton_re")='¡Explora proyectos!'
+
+        div(class="col-md-4")
+          h3(class="text-center")="Instituciones"
+          div(class="wrap_button")
+            img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
+
+            p(text-justify)="No se si quieran poner una descripcion aca"
+            
+            br
+            br
+            button(type="button" class="btn btn-success boton_re")='¡Mira las empresas!'
+
+        div(class="col-md-4")
+          h3(class="text-center")="Escuelas"
+          div(class="wrap_button")
+            img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
+            
+            p(text-justify)="No se si quieran poner una descripcion aca"
+
+            br
+            br
+            button(type="button" class="btn btn-success boton_re")='¡Mira las escuelas!'
+
+      <!--Lista de los retos-->
+      div(class="row")
+        div(class="col-md-10 col-md-offset-1")
+          div(class="panel panel-default")
+            div(class="panel-heading text-center" style="background-color: #0f6bff; color:white;")="Últimos proyectos agregados"
+            div(class="panel-body")
+              div(class="list-group")
+                a(href="#" class="list-group-item")="Proyecto número n"
+                a(href="#" class="list-group-item")="Proyecto número n - 1"
+                a(href="#" class="list-group-item")="Proyecto número n - 2"
+                
+      //-
+        div(class="proyectos")
+          div(class="row")
+            div(class="col-md-1")
+            
+            div(class="col-md-7")
+              h2(class="text-center")='Podrás encontrar proyectos'
+              p(class="text-justify")='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            
+            div(class="col-md-4")
+              div(class="wrap_button")
+                img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
+                br
+                br
+                button(type="button" class="btn btn-success boton_re")='¡Explora proyectos!'
       
-      div(class="proyectos")
-        div(class="row")
-          div(class="col-md-1")
-          
-          div(class="col-md-7")
-            h2(class="text-center")='Podrás encontrar proyectos'
-            p(class="text-justify")='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-          
-          div(class="col-md-4")
-            div(class="wrap_button")
-              img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
-              br
-              br
-              button(type="button" class="btn btn-success boton_re")='¡Explora proyectos!'
+      //-
+        div(class="escuelas")
+          div(class="row")
+            div(class="col-md-4")
+              div(class="wrap_button")
+                img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
+                br
+                br
+                button(type="button" class="btn btn-success boton_re")='¡Mira las escuelas!'
 
-      div(class="escuelas")
-        div(class="row")
-          div(class="col-md-4")
-            div(class="wrap_button")
-              img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
-              br
-              br
-              button(type="button" class="btn btn-success boton_re")='¡Mira las escuelas!'
+            div(class="col-md-7")
+              h2(class="text-center")='Mira las diferentes escuelas participantes'
+              p(class="text-justify")='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 
-          div(class="col-md-7")
-            h2(class="text-center")='Mira las diferentes escuelas participantes'
-            p(class="text-justify")='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            div(class="col-md-1")
 
-          div(class="col-md-1")
-
-      div(class="empresas")
-        div(class="row")
-          div(class="col-md-1")
-          
-          div(class="col-md-7")
-            h2(class="text-center")='Conoce las empresas participantes'
-            p(class="text-justify")='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-          
-          div(class="col-md-4")
-            div(class="wrap_button")
-              img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
-              br
-              br
-              button(type="button" class="btn btn-success boton_re")='¡Mira las empresas!'
-
-      div(class='recuadro_verde')
-        div(class='row')
-          div(class="col-md-4")
-            h2(class="text-center")='Tú también puedes participar'
-            p(class="text-justify")='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-          
-          div(class="col-md-4")
-            div(class="wrap_button")
-              img(src="https://vignette.wikia.nocookie.net/spongebob/images/3/34/Hooky_020.png/revision/latest?cb=20120927143438" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
-              br
-              br
-              button(type="button" class="btn btn-success boton_re")='Conoce las instrucciones'
-          
-          div(class="col-md-4")
-            h2(class="text-center")='Tú también puedes participar'
-            p(class="text-justify")='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      //-
+        div(class="empresas")
+          div(class="row")
+            div(class="col-md-1")
+            
+            div(class="col-md-7")
+              h2(class="text-center")='Conoce las empresas participantes'
+              p(class="text-justify")='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            
+            div(class="col-md-4")
+              div(class="wrap_button")
+                img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
+                br
+                br
+                button(type="button" class="btn btn-success boton_re")='¡Mira las empresas!'
+      
+      //-
+        div(class='recuadro_verde')
+          div(class='row')
+            div(class="col-md-4")
+              h2(class="text-center")='Tú también puedes participar'
+              p(class="text-justify")='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+            
+            div(class="col-md-4")
+              div(class="wrap_button")
+                img(src="https://vignette.wikia.nocookie.net/spongebob/images/3/34/Hooky_020.png/revision/latest?cb=20120927143438" class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
+                br
+                br
+                button(type="button" class="btn btn-success boton_re")='Conoce las instrucciones'
+            
+            div(class="col-md-4")
+              h2(class="text-center")='Tú también puedes participar'
+              p(class="text-justify")='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'

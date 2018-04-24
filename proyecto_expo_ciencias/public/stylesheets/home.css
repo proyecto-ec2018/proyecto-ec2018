@@ -2,6 +2,10 @@
   height: 300px;
 }
 
+.carousel {
+  margin-bottom: 20px;
+}
+
 .item img {
     margin: auto;
     position: absolute;
@@ -14,14 +18,13 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.proyectos {
+/*.proyectos {
   background-color: #0f6bff;
   border-radius: 5px !important;
   margin-bottom: 20px;
   margin-top: 20px;
   color: white;
   padding: 20px;
-  /*padding-left: 10px;*/
 }
 
 .proyectos .wrap_button {
@@ -36,7 +39,6 @@
   margin-top: 20px;
   color: white;
   padding: 20px;
-  /*padding-left: 10px;*/
 }
 
 .escuelas .wrap_button {
@@ -51,22 +53,11 @@
   margin-top: 20px;
   color: white;
   padding: 20px;
-  /*padding-left: 10px;*/
 }
 
 .empresas .wrap_button {
   text-align: center;
   vertical-align: center;
-}
-
-.cuerpo .boton_re {
-  background-color: transparent;
-  border-color: white;
-}
-
-.cuerpo .boton_re:hover {
-  background-color: rgba(0, 0, 0, 0.4);
-  border-color: white;
 }
 
 .recuadro_verde {
@@ -76,10 +67,28 @@
   margin-top: 20px;
   color: white;
   padding: 20px;
-  /*padding-left: 10px;*/
 }
 
 .recuadro_verde .wrap_button {
   text-align: center;
   vertical-align: center;
+}*/
+
+.cuerpo .boton_re {
+  /*background-color: transparent;*/
+  border-color: white;
+}
+
+.cuerpo .boton_re:hover {
+  /*background-color: rgba(0, 0, 0, 0.4);*/
+  border-color: white;
+}
+
+.wrap_button {
+  text-align: center;
+  vertical-align: center;
+}
+
+.panel_circulos {
+  margin-bottom: 35px;
 }
