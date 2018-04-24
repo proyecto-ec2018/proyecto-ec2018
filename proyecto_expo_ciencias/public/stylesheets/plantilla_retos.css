@@ -1,0 +1,35 @@
+.panel_izquierdo {
+	color: white;
+	background-color: #0ece5e;
+	padding: 20px;
+}
+
+.panel_derecho {
+
+}
+
+.titulo_proyecto{
+	font-size: 65px;
+	color: black;
+}
+
+.wrap_image{
+	margin: 15px;
+	text-align: center;
+  	vertical-align: center;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.tag {
+	text-decoration: none;
+	border-radius: 5px !important;
+	padding: 5px !important;
+	color: white;
+	background-color: #4286f4;*/
+}

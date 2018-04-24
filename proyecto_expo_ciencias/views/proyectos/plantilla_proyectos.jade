@@ -1,0 +1,54 @@
+extends ../templates/default
+
+block content_head
+  link(rel="stylesheet" href="/stylesheets/plantilla_proyectos.css")
+
+block content
+  div(class="contenedor")
+    div(class="container-fluid")
+      div(class="row row-eq-height")
+        div(class="col-md-3 col-xs-6 col-sm-6 panel_izquierdo")
+          div(class="wrap_image")
+              img(src="https://vignette.wikia.nocookie.net/bobesponja/images/0/0e/MermaidMan.png/revision/latest?cb=20100414023916" class="img-circle hidden-xs" alt="Cinque Terre" style="width:150px; height: 150px")
+              h4()="Datos generales"
+            
+          h4="Integrantes:"  
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="Nombre Apellido_1 Apellido_2"
+            li()="Nombre Apellido_1 Apellido_2"
+            li()="Nombre Apellido_1 Apellido_2"
+
+          h4="Correo de contacto: "
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="Correo@correo1.com"
+            li()="Correo@correo2.com"
+            li()="Correo@correo3.com"
+            
+          h4="Número telefónico: "
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="+55 665 326 565"
+            li()="+55 665 326 565"
+            li()="+55 665 326 565"
+
+        div(class="col-md-9 col-xs-6 col-sm-6 panel_derecho")
+          h1(class="text-center titulo_proyecto")="Título del proyecto"
+          h3(class="text-justify:")="Descripción:"
+          p(class="text-justify")="Lorem ipsum dolor sit amet, perfecto principes delicatissimi est te. Vim ea omnesque phaedrum, nulla dolorum no has, usu agam dicam corrumpit ex. Docendi platonem consectetuer ius eu, quo offendit ullamcorper cu. Ius case cotidieque cu, at cum nullam volutpat interesset, duo regione virtute recteque an."
+
+          h3(class="text-justify:")="Archivos:"
+          ul(class="list-unstyled")
+            li()
+              a(href="#")="Archivo 1"
+            li()
+              a(href="#")="Archivo 2"
+            li()
+              a(href="#")="Archivo 2"
+
+          h3(class="text-justify:")="Etiquetas:"
+          ul(class="list-unstyled list-inline")
+            li()
+              a(href="#" class="tag")="Lorem"
+            li()
+              a(href="#" class="tag")="Ipsum"
+            li()
+              a(href="#" class="tag")="Dolor"
