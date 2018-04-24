@@ -1,6 +1,6 @@
 link(rel='stylesheet', href='/stylesheets/navbar.css')
 div
-  div(class="navbar navbar-default navbar_config")
+  div(class="navbar navbar-default navbar_config navbar-fixed-top")
     div(class="container-fluid")
       div(class="container")
         div(class="navbar-header")
@@ -11,24 +11,32 @@ div
             span(class="icon-bar")
           a(class="navbar-brand" href="http://localhost:3000/")='CAT project'
         div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
+
+          ul(class="nav navbar-nav navbar-left")
+            li
+              a(href="#")="Conocenos"
+
           ul(class="nav navbar-nav navbar-right")
             li
-              a(a href="http://localhost:3000/empresas-vistazo")='Empresas'
+              a(href="http://localhost:3000/empresas-vistazo")='Empresas'
             li
-              a(a href="http://localhost:3000/escuelas-vistazo")='Escuelas'
+              a(href="http://localhost:3000/escuelas-vistazo")='Escuelas'
             li
-              a(a href="http://localhost:3000/mision")='Misión'
+              a(href="http://localhost:3000/mision")='Misión'
             li
-              a(a href="http://localhost:3000/vision")='Visión'
-            li(class="dropdown")
-              a(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" id="dropdownMenu1")='Ingreso'
-                span(class="caret")
-              ul(class="dropdown-menu" aria-labelledby="dropdownMenu1")
-                li
-                  a(href="http://localhost:3000/registro")
-                    span(class="glyphicon glyphicon-edit")
-                    =' Registro'
-                li
-                  a(href="http://localhost:3000/inicio-sesion")
-                    span(class="glyphicon glyphicon-log-in")
-                    =' Iniciar sesión'
+              a(href="http://localhost:3000/vision")='Visión'
+            li
+              a(href="#")="Primeros pasos"
+            //-
+              li(class="dropdown")
+                a(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" id="dropdownMenu1")='Ingreso'
+                  span(class="caret")
+                ul(class="dropdown-menu" aria-labelledby="dropdownMenu1")
+                  li
+                    a(href="http://localhost:3000/registro")
+                      span(class="glyphicon glyphicon-edit")
+                      =' Registro'
+                  li
+                    a(href="http://localhost:3000/inicio-sesion")
+                      span(class="glyphicon glyphicon-log-in")
+                      =' Iniciar sesión'
