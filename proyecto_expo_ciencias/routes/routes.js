@@ -18,4 +18,11 @@ router.get('/registro', controllers.UserController.getSignUp);
 router.get('/inicio-sesion', controllers.UserController.getSignIn);
 /*router.post('/inicio-sesion', controllers.UserController.postSignIn);*/
 
+
+router.get('/proyectos', controllers.PlantillasController.plantilla_para_proyectos);
+router.get('/retos', controllers.PlantillasController.plantilla_para_retos);
+router.get('/empresas', controllers.PlantillasController.plantilla_para_empresas);
+router.get('/escuelas', controllers.PlantillasController.plantilla_para_escuelas);
+
+
 module.exports = router;
