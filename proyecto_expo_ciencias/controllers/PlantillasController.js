@@ -18,4 +18,16 @@ module.exports = {
     return res.render('instituciones-escuelas/plantilla_escuela', {title: "CAT - project | Empresas"})
   },
 
+  plantilla_lista_proyectos : function(req, res, next) {
+    return res.render('proyectos/lista_proyectos', {title: "CAT - project | proyectos"});
+  },
+
+  plantilla_lista_escuelas : function(req, res, next) {
+    return res.render('instituciones-escuelas/lista_escuelas', {title: "CAT - project | escuelas"});
+  },
+
+  plantilla_lista_empresas : function(req, res, next) {
+    return res.render('instituciones-escuelas/lista_empresas', {title: "CAT - project | empresas"});
+  },
+
 }

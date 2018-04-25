@@ -19,10 +19,13 @@ router.get('/inicio-sesion', controllers.UserController.getSignIn);
 /*router.post('/inicio-sesion', controllers.UserController.postSignIn);*/
 
 
-router.get('/proyectos', controllers.PlantillasController.plantilla_para_proyectos);
+router.get('/proyectos/proyecto_1', controllers.PlantillasController.plantilla_para_proyectos);
 router.get('/retos', controllers.PlantillasController.plantilla_para_retos);
-router.get('/empresas', controllers.PlantillasController.plantilla_para_empresas);
-router.get('/escuelas', controllers.PlantillasController.plantilla_para_escuelas);
+router.get('/empresas/empresa_1', controllers.PlantillasController.plantilla_para_empresas);
+router.get('/escuelas/escuela_1', controllers.PlantillasController.plantilla_para_escuelas);
+router.get('/proyectos', controllers.PlantillasController.plantilla_lista_proyectos);
+router.get('/escuelas', controllers.PlantillasController.plantilla_lista_escuelas);
+router.get('/empresas', controllers.PlantillasController.plantilla_lista_empresas);
 
 
 module.exports = router;
