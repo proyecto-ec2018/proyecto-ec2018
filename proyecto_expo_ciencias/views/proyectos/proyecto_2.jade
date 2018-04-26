@@ -1,0 +1,54 @@
+extends ../templates/default
+
+block content_head
+  link(rel="stylesheet" href="/stylesheets/plantilla_proyectos.css")
+
+block content
+  div(class="contenedor")
+    div(class="container-fluid")
+      div(class="row row-eq-height")
+        div(class="col-md-3 col-xs-6 col-sm-6 panel_izquierdo")
+          div(class="wrap_image")
+              img(src='/images/cript.jpg' class="img-circle hidden-xs" alt="Cinque Terre" style="width:150px; height: 150px")
+              h4()="Datos generales"
+            
+          h4="Integrantes:"  
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="Sebastián Rodríguez Serrano"
+            li()="Ramóm Armando Guadalupe Ruíz Salazar"
+            li()="Luis Fernando Sotomayor Samaniego"
+
+          h4="Correo de contacto: "
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="sebastianrs@gmail.com"
+            li()="3.14q2rs@gmail.com"
+            li()="sanlf@gmail.com"
+            
+          h4="Número telefónico: "
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="+52 662 326 565"
+            li()="+52 662 229 555"
+            li()="+52 662 101 279"
+
+        div(class="col-md-9 col-xs-6 col-sm-6 panel_derecho")
+          h1(class="text-center titulo_proyecto")="Números de seguridad en las empresas."
+          h3(class="text-justify:")="Descripción:"
+          p(class="text-justify")="Los códigos de barras, los números de envíos por correos, entre otros sistemas de información en los productos, son algunas de las medidas que toman las empresas en la actualidad. En este proyecto hacemos un análisis de cómo estos son generados de tal manera que el error humano apenas pueda afectar, así como qué es lo que hacen los matemáticos para lograr errores detectables de manera sencilla, todo esto desde un enfoque algebráico, haciendo uso de arítmética modular elemental y otras herramientas del álgebra moderna elemental que son introducidas en el proyecto."
+
+          h3(class="text-justify:")="Archivos:"
+          ul(class="list-unstyled")
+            li()
+              a(href="#" style='color:blue;text-decoration: underline; ')="Algebra_moderna.pdf"
+            li()
+              a(href="#" style='color:blue;text-decoration: underline;')="Ejemplos_algMod.pdf"
+            li()
+              a(href="#" style='color:blue;text-decoration: underline;')="CalculosUPS.pdf"
+
+          h3(class="text-justify:")="Etiquetas:"
+          ul(class="list-unstyled list-inline")
+            li()
+              a(href="#" class="tag")="Álgebra Moderna"
+            li()
+              a(href="#" class="tag")="Matemáticas aplicadas"
+            li()
+              a(href="#" class="tag")="Criptografía"

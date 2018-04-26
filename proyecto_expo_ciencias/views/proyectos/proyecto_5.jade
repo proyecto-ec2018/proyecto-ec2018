@@ -1,0 +1,58 @@
+extends ../templates/default
+
+block content_head
+  link(rel="stylesheet" href="/stylesheets/plantilla_proyectos.css")
+
+block content
+  div(class="contenedor")
+    div(class="container-fluid")
+      div(class="row row-eq-height")
+        div(class="col-md-3 col-xs-6 col-sm-6 panel_izquierdo")
+          div(class="wrap_image")
+              img(src='/images/r.jpg' class="img-circle hidden-xs" alt="Cinque Terre" style="width:150px; height: 150px")
+              h4()="Datos generales"
+            
+          h4="Integrantes:"  
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="Sebastián Rodríguez Serrano"
+            li()="Francisco Javier Vicente Tequida"
+            li()="Víctor Ariel Noriega Ortiz"
+
+          h4="Correo de contacto: "
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="sebastianrs@gmail.com"
+            li()="victornoriega7@gmail.com"
+            li()="francisco.tequida00@gmail.com"
+            
+          h4="Número telefónico: "
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="+52 662 326 565"
+            li()="+52 662 229 555"
+            li()="+52 662 101 279"
+
+        div(class="col-md-9 col-xs-6 col-sm-6 panel_derecho")
+          h1(class="text-center titulo_proyecto")="Introducción a Shiny de R con estadística."
+          h3(class="text-justify:")="Descripción:"
+          p(class="text-justify")="En la probabilidad y la estadística se recurren usualmente a programas de software para ejemplificar o simular experimentos. El software y lenguaje de programación R es bastante conocido en el mundo de la estadística por su facilidad de acceder a métodos y funciones útiles. A partir de este punto, nosotros buscamos crear un software en R que sea más amigable con el usuario. Aquí es donde entra Shiny, una extensión de R para experimentar y hacer simulaciones más sencillamente, donde veremos cómo utilizarlo con una aplicación que ejemplifica cómo se relacionan algunas distribuciones en la estadística."
+
+          h3(class="text-justify:")="Archivos:"
+          ul(class="list-unstyled")
+            li()
+              a(href="#" style='color:blue;text-decoration: underline; ')="server.R"
+            li()
+              a(href="#" style='color:blue;text-decoration: underline;')="ui.R"
+            li()
+              a(href="#" style='color:blue;text-decoration: underline;')="documentacion.pdf"
+
+          h3(class="text-justify:")="Etiquetas:"
+          ul(class="list-unstyled list-inline")
+            li()
+              a(href="#" class="tag")="Computación"
+            li()
+              a(href="#" class="tag")="Probabilidad"
+            li()
+              a(href="#" class="tag")="Estadística"
+            li()
+              a(href="#" class="tag")="Matemáticas"
+            li()
+              a(href="#" class="tag")="R"

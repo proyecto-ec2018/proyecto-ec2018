@@ -20,6 +20,13 @@ router.get('/inicio-sesion', controllers.UserController.getSignIn);
 
 
 router.get('/proyectos/proyecto_1', controllers.PlantillasController.plantilla_para_proyectos);
+router.get('/proyectos/proyecto_2', controllers.PlantillasController.proyecto2);
+router.get('/proyectos/proyecto_3', controllers.PlantillasController.proyecto3);
+router.get('/proyectos/proyecto_4', controllers.PlantillasController.proyecto4);
+router.get('/proyectos/proyecto_5', controllers.PlantillasController.proyecto5);
+router.get('/proyectos/proyecto_6', controllers.PlantillasController.proyecto6);
+
+
 router.get('/retos', controllers.PlantillasController.plantilla_para_retos);
 router.get('/empresas/empresa_1', controllers.PlantillasController.plantilla_para_empresas);
 router.get('/escuelas/escuela_1', controllers.PlantillasController.plantilla_para_escuelas);
