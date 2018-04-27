@@ -30,6 +30,13 @@ router.get('/proyectos/proyecto_6', controllers.PlantillasController.proyecto6);
 router.get('/retos', controllers.PlantillasController.plantilla_para_retos);
 router.get('/empresas/empresa_1', controllers.PlantillasController.plantilla_para_empresas);
 router.get('/escuelas/escuela_1', controllers.PlantillasController.plantilla_para_escuelas);
+router.get('/escuelas/escuela_2', controllers.PlantillasController.escuela_2);
+router.get('/escuelas/escuela_3', controllers.PlantillasController.escuela_3);
+router.get('/escuelas/escuela_4', controllers.PlantillasController.escuela_4);
+router.get('/escuelas/escuela_5', controllers.PlantillasController.escuela_5);
+router.get('/escuelas/escuela_6', controllers.PlantillasController.escuela_6);
+
+
 router.get('/proyectos', controllers.PlantillasController.plantilla_lista_proyectos);
 router.get('/escuelas', controllers.PlantillasController.plantilla_lista_escuelas);
 router.get('/empresas', controllers.PlantillasController.plantilla_lista_empresas);

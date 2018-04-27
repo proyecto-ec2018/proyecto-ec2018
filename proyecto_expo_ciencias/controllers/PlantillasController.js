@@ -15,7 +15,22 @@ module.exports = {
   },
 
   plantilla_para_escuelas : function (req, res, next){
-    return res.render('instituciones-escuelas/plantilla_escuela', {title: "CAT - project | Empresas"})
+    return res.render('instituciones-escuelas/plantilla_escuela', {title: "Ciencias de la Computación"})
+  },
+  escuela_2 : function (req, res, next){
+    return res.render('instituciones-escuelas/escuela_2', {title: "Lic. Matemáticas"})
+  },
+  escuela_3 : function (req, res, next){
+    return res.render('instituciones-escuelas/escuela_3', {title: "Ing. Sistemas computacionales"})
+  },
+  escuela_4 : function (req, res, next){
+    return res.render('instituciones-escuelas/escuela_4', {title: "COBACH: Villa de Seris"})
+  },
+  escuela_5 : function (req, res, next){
+    return res.render('instituciones-escuelas/escuela_5', {title: "Cecytes: La manga"})
+  },
+  escuela_6 : function (req, res, next){
+    return res.render('instituciones-escuelas/escuela_6', {title: "Maestría en Matemáticas"})
   },
 
   plantilla_lista_proyectos : function(req, res, next) {
