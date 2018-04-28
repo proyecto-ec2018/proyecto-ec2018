@@ -28,6 +28,10 @@ router.get('/proyectos/proyecto_6', controllers.PlantillasController.proyecto6);
 
 
 router.get('/retos', controllers.PlantillasController.plantilla_para_retos);
+router.get('/retos/reto_1', controllers.PlantillasController.reto_1);
+router.get('/retos/reto_2', controllers.PlantillasController.reto_2);
+router.get('/retos/reto_3', controllers.PlantillasController.reto_3);
+
 router.get('/empresas/empresa_1', controllers.PlantillasController.plantilla_para_empresas);
 router.get('/escuelas/escuela_1', controllers.PlantillasController.plantilla_para_escuelas);
 router.get('/escuelas/escuela_2', controllers.PlantillasController.escuela_2);

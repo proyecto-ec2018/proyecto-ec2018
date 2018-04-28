@@ -7,7 +7,19 @@ module.exports = {
   },
 
   plantilla_para_retos : function(req, res, next){
-    return res.render('retos/plantilla_retos', {title: "CAT - project | Retos"});
+    return res.render('retos/lista_retos', {title: "CAT - project | Retos"});
+  },
+
+  reto_1 : function(req, res, next){
+    return res.render('retos/reto_1', {title: "Poda alfa-beta | retos"});
+  },
+
+  reto_2 : function(req, res, next){
+    return res.render('retos/reto_2', {title: "Formulario | retos"});
+  },
+
+  reto_3 : function(req, res, next){
+    return res.render('retos/reto_3', {title: "Centralizador | retos"});
   },
 
   plantilla_para_empresas : function (req, res, next){
