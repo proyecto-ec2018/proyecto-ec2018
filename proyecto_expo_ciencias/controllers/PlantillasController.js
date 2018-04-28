@@ -76,5 +76,20 @@ module.exports = {
   proyecto6 : function(req,res,next){
     return res.render('proyectos/proyecto_6', {title: "El doblaje"})
   },
+  empresa_2 : function (req, res, next){
+    return res.render('instituciones/empresa_2', {title: "TelTec"})
+  },
+  empresa_3 : function (req, res, next){
+    return res.render('instituciones/empresa_3', {title: "Aliento"})
+  },
+  empresa_4 : function (req, res, next){
+    return res.render('instituciones/empresa_4', {title: "Save D' World"})
+  },
+  empresa_5 : function (req, res, next){
+    return res.render('instituciones/empresa_5', {title: "Micro-Macro"})
+  },
+  empresa_6 : function (req, res, next){
+    return res.render('instituciones/empresa_6', {title: "CONT-Mex"})
+  },
 
 }
