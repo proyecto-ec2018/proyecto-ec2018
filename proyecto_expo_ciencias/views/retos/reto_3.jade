@@ -1,0 +1,54 @@
+extends ../templates/default
+
+block content_head
+  link(rel="stylesheet" href="/stylesheets/plantilla_proyectos.css")
+
+block content
+  div(class="contenedor")
+    div(class="container-fluid")
+      div(class="row row-eq-height")
+        div(class="col-md-3 col-xs-6 col-sm-6 panel_izquierdo")
+          div(class="wrap_image")
+              img(src='/images/cripto.jpg' class="img-circle hidden-xs" alt="Cinque Terre" style="width:150px; height: 150px")
+              h4()="Datos generales"
+            
+          h4="Interesado:"  
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="Crypto systems"
+            li()="Dr. Jairo Rodríguez Calderón"
+
+          h4="Correo de recepción: "
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="jrcalderon@cryptosystems.com"
+
+        div(class="col-md-9 col-xs-6 col-sm-6 panel_derecho")
+          h1(class="text-center titulo_proyecto")="Identificación del centralizador en un grupo"
+          h3(class="text-justify:")="Descripción:"
+          p(class="text-justify")="Como empresa enfocada en la encriptación de datos buscamos una implementación que sea capaz de encontrar el centralizador para dentro de un grupo para una serie de elementos pertenecientes a ese mismo grupo. Se adjuntan los archivos que contienen la descripción del grupo así como de los elementos de interés"
+
+          h3(class="text-justify:")="Archivos:"
+          ul(class="list-unstyled")
+            li()
+              a(href="#" style='color:blue;text-decoration: underline;')="Descripcion_grupo_elemetos.pdf"
+
+          h3(class="text-justify:")="Bases:"
+          p(class="text-justify")="Consideramos necesario sentar las siguientes bases:"
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="El desarrollo de este proyecto debe ser en C/C++"
+            li()="Es escencial que se entregue una documentación detallada"
+            li()="Se desea que los participantes atiendan un nivel de educación superior"
+
+          h3(class="text-justify:")="Premios"
+          ul(class="list-unstyled")
+            li()="El ganador obtendrá un monto de $1000.00mxn y además, si es de su interés podrá realizar sus prácticas profesionales con nosotros"
+
+          h3(class="text-center")="Fecha límite de presentación: 7 de julio de 2018"
+
+          h3(class="text-justify:")="Etiquetas:"
+          ul(class="list-unstyled list-inline")
+            li()
+              a(href="#" class="tag")="Criptografía"
+            li()
+              a(href="#" class="tag")="Álgebra"
+            li()
+              a(href="#" class="tag")="Prácticas"

@@ -1,0 +1,57 @@
+extends ../templates/default
+
+block content_head
+  link(rel="stylesheet" href="/stylesheets/plantilla_proyectos.css")
+
+block content
+  div(class="contenedor")
+    div(class="container-fluid")
+      div(class="row row-eq-height")
+        div(class="col-md-3 col-xs-6 col-sm-6 panel_izquierdo")
+          div(class="wrap_image")
+              img(src='/images/Poda_alfa_beta.png' class="img-circle hidden-xs" alt="Cinque Terre" style="width:150px; height: 150px")
+              h4()="Datos generales"
+            
+          h4="Interesado:"  
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="Licenciatura en Ciencias de la Computación"
+            li()="Dr. Julio Waissman Vilanova"
+
+          h4="Correo de recepción: "
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="lcc@mat.uson"
+            li()="waissmanjulio@gmail.com"
+
+        div(class="col-md-9 col-xs-6 col-sm-6 panel_derecho")
+          h1(class="text-center titulo_proyecto")="Implementación para una poda alfa-beta"
+          h3(class="text-justify:")="Descripción:"
+          p(class="text-justify")="Dentro de la Licenciatura en Ciencias de la Computación contamos con la materia en inteligencia artificial. Hemos creado una implementación del algoritmo minimax para el árbol de juego generado por el juego del gato 81 y por motivos de optimización buscamos que sea implementada la poda alfa-beta. Los archivos necesarios se enlistan a continuación."
+
+          h3(class="text-justify:")="Archivos:"
+          ul(class="list-unstyled")
+            li()
+              a(href="#" style='color:blue;text-decoration: underline;')="Minimax.py"
+            li()
+              a(href="#" style='color:blue;text-decoration: underline;')="Arbol_de_juego.pdf"
+
+          h3(class="text-justify:")="Bases:"
+          p(class="text-justify")="Consideramos necesario sentar las siguientes bases:"
+          ul(class="list-unstyled" style="margin-left: 20px;")
+            li()="El desarrollo de la implementación deberá ser individual o en equipo de máximo tres personas"
+            li()="De ser modificado el algoritmo minimax, todo cambio debe documentarse"
+            li()="La implementación de una solución debe contar con su respectiva documentación"
+            li()="La solución debe ser completamente propia y exponer el por qué se ha decidido realizar todo de cierta forma"
+            li()="Solo han de participar personas de una institución de nivel superior"
+
+          h3(class="text-justify:")="Premios"
+          ul(class="list-unstyled")
+            li()="El ganador obtendrá la publicación de su proyecto en la revista del departamento de matemáticas"
+
+          h3(class="text-center")="Fecha límite de presentación: 25 de agosto de 2018"
+
+          h3(class="text-justify:")="Etiquetas:"
+          ul(class="list-unstyled list-inline")
+            li()
+              a(href="#" class="tag")="Inteligencia artificial"
+            li()
+              a(href="#" class="tag")="Algoritmos"

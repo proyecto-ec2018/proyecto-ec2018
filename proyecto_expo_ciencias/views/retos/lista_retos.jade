@@ -1,0 +1,46 @@
+extends ../templates/default
+
+block content_head
+  link(rel="stylesheet" href="stylesheets/plantilla_empresas_escuelas_lista.css")
+
+block content
+  div()
+    div(class="container")
+
+      div(class="panel panel-default")
+        div(class="panel-heading text-center" style="background-color: #0f6bff; color:white;")="Listado histórico de retos"
+
+        div(class="panel-body")
+          div(class="row display-flex")
+            div(class="col-md-4")
+              div(class="thumbnail")
+                img(src='/images/Poda_alfa_beta.png' class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
+                div(class="caption")
+                  h3()="Implementación para una poda alfa-beta"
+                  p(class="text-justify")="Se búsca una implementación de la poda alfa beta para nuestra implementación del algoritmo minimax."
+                  p()="Interesado: Licenciatura en Ciencias de la Computación."
+                  p()
+                    a(href="http://localhost:3000/retos/reto_1" class="btn btn-primary" role="button")="Ver más"
+
+            div(class="col-md-4")
+              div(class="thumbnail")
+                img(src='/images/formulario_registro.jpg' class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
+                div(class="caption")
+                  h3()="Plantilla para un formulario de registro"
+                  p(class="text-justify")="Buscamos una plantilla para un formulario de registro. Esta debe cumplir con una serie de restricciones."
+                  p()="Interesado: School solutions"
+                  p()
+                    a(href="http://localhost:3000/retos/reto_2" class="btn btn-primary" role="button")="Ver más"
+            
+            div(class="col-md-4")
+              div(class="thumbnail")
+                img(src='/images/cripto.jpg' class="img-circle" alt="Cinque Terre" style="width:150px; height: 150px")
+                div(class="caption")
+                  h3()="Identificación del centralizador en un grupo"
+                  p(class="text-justify")="Se requiere de una implementación computacional que dado un conjunto de datos y ciertos elementos clave, encuentre el centralizador para dichos elementos."
+                  p()="Interesado: Crypto systems"
+                  p()
+                    a(href="http://localhost:3000/retos/reto_3" class="btn btn-primary" role="button")="Ver más"
+      //-
+        div(class="row")
+          h1="Texto"
