@@ -8,6 +8,8 @@ router.get('/vision', controllers.HomeController.vision);
 router.get('/empresas-vistazo', controllers.HomeController.empresas);
 router.get('/escuelas-vistazo', controllers.HomeController.escuelas);
 
+router.get('/primeros_pasos', controllers.HomeController.promeros_pasos);
+router.get('/conocenos', controllers.HomeController.conocenos);
 
 router.get('/registro/instituciones', controllers.UserController.getSignUpInstitucion);
 router.get('/registro/estudiantes', controllers.UserController.getSignUpEstudiante);

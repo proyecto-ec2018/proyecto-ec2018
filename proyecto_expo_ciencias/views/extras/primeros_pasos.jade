@@ -1,0 +1,77 @@
+extends ../templates/default
+
+block content_head
+  link(rel="stylesheet" href="stylesheets/lista_proyectos.css")
+
+block content
+  div()
+    div(class="container")
+      h1(class="text-center")="Primeros pasos"
+
+      div(class="panel-group" id="accordion")
+        div(class="panel panel-default")
+          div(class="panel-heading" style="background-color: #0f6bff; color: white;")
+            h2(class="panel-title")
+              a(data-toggle="collapse" data-parent="#accordion" href="#collapse1")="Envío de propuestas"
+
+          div(id="collapse1" class="panel-collapse collapse in" style="font-size: 16px;")
+            div(class="panel-body")
+              p()="El envío de propuestas para proyectos ha de ser enviado a la siguiente dirección:"
+              p()="CAT-project@catproject.com"
+              p()="En el correo se ha de incluir:"
+              ul(class="" style="margin-left: 40px;")
+                li()="Un título para el proyecto"
+                li()="Una descripción donde se explica el proyecto de forma detallada"
+                li()="Todos los archivos que se manejen para el proyecto"
+                li()="Una serie de etiquetas que definen el área del proyecto"
+                li()="Información del equipo de desarrollo, esto es, nombre de los integrantes, al menos un correo electrónico para contacto y de manera opcional un número de teléfono"
+                li()="Se puede anexar una imagen representativa para el equipo o para el proyecto"
+              p(class="text-justify")="Una vez se reciba el proyecto este pasará a la etapa de revisiones donde un equipo de personas voluntarias verificarán la información que se ha recibido. El equipo de desarrollo recibirá un correo con información sobre las personas que han decidido evaluar el proyecto y una vez éstos tengan un criterio se les notificará con las correcciones que se han de realizar. En caso de no recibir correcciones se les notificará que su proyecto pasa a la etapa de publicación."
+
+        div(class="panel panel-default")
+          div(class="panel-heading" style="background-color: #0f6bff; color: white;")
+            h2(class="panel-title")
+              a(data-toggle="collapse" data-parent="#accordion" href="#collapse2")="Envío de retos"
+              
+          div(id="collapse2" class="panel-collapse collapse" style="font-size: 16px;")
+            div(class="panel-body")
+              p()="El envío de propuestas para retos ha de ser enviado a la siguiente dirección:"
+              p()="CAT-project@catproject.com"
+              p()="En el correo se ha de incluir:"
+              ul(class="" style="margin-left: 40px;")
+                li()="Un título para el reto"
+                li()="Una descripción donde se explica el reto de forma detallada"
+                li()="Todos los archivos que se manejen para el reto así como aquellos que se usen para dar indicaciones extra"
+                li()="Una serie de etiquetas que definen el área del reto"
+                li()="Se debe indicar la fecha límite para el envío de propuestas"
+                li()="Información de la organización que envía el reto, esto es, nombre de la empresa/escuela (especificar departamento para el caso de escuelas), el nombre de la persona que representa a dicha organiazación, al menos un correo electrónico para contacto y de manera opcional un número de teléfono"
+                li()="Se debe anexar una imagen representativa para la organización"
+              p(class="text-justify")="Una vez se reciba el reto éste pasará a la etapa de revisiones donde un equipo de personas voluntarias verificarán la información que se ha recibido. En caso de necesitar aclaraciones o correciones el equipo de revisión enviará un correo a la organización solicitando las aclaraciones o indicando las correciones que se han de seguir. Una vez hecho esto, el reto entrará en la etapa de publicación."
+        
+        div(class="panel panel-default")
+          div(class="panel-heading" style="background-color: #0f6bff; color: white;")
+            h2(class="panel-title")
+              a(data-toggle="collapse" data-parent="#accordion" href="#collapse3")="Revisión de proyectos y retos"
+              
+          div(id="collapse3" class="panel-collapse collapse" style="font-size: 16px;")
+            div(class="panel-body")
+              p(text-justify)="El proceso de revisión para los proyectos y los retos en principio es el mismo:"
+              ul(class="" style="margin-left: 40px;")
+                li()="El reto/proyecto es recibido en nuestro correo"
+                li()="Una serie de nuestros revisores habrán de ofrecerse para la revisión"
+                li()="Una vez se tienen los revisores, el equipo u organización recibirá un correo con los datos de las personas que revisarán su propuesta"
+                li()="Una vez los revisores tengan un criterio, éste se le hará llegar a la empresa o equipo y si se les menciona que se requieren de correcciones entonces habrá que empezar el proceso de nuevo pero ahora con las correciones hechas"
+                li()="Una vez las revisiones y correciones han sido hechas encontes el estatus del proyecto cambia y el equipo u organización reciben un correo con este cambio"
+              p(text-justify)="Una vez se ha realizado el proceso anterior entonces la propuesta pasa a ser publicada en la página y es visible para todos"
+
+        div(class="panel panel-default")
+          div(class="panel-heading" style="background-color: #0f6bff; color: white;")
+            h2(class="panel-title")
+              a(data-toggle="collapse" data-parent="#accordion" href="#collapse4")="Publicación de proyectos y retos"
+              
+          div(id="collapse4" class="panel-collapse collapse" style="font-size: 16px;")
+            div(class="panel-body")
+              p(class="text-justify")="Una vez se ha pasado por el proceso de revisiones es hora de publicar la propuesta en la página. Dependiendo de los datos que se han enviado con la propuesta, esto es, si proviene de una empresa u escuela o es un proyecto se publica en la sección correspondiente. Se extraen los datos y se colocan en la sección de proyectos/retos."
+              p(class="text-justify")="Una vez publicado, es posible que como empresa o escuela recibas propuestas de soluciones. También es posible que como proyecto recibas acercamiento por parte de escuelas o empresas que se interesen en lo que estás trabajando."
+
+     

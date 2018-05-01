@@ -19,4 +19,12 @@ module.exports = {
 	escuelas : function(req, res, next){
 		res.render('instituciones/escuelas-preview', {title: "CAT project - escuelas"});
 	},
+
+	promeros_pasos : function(req, res, next){
+		res.render('extras/primeros_pasos', {title: "CAT project - Primeros pasos"});
+	},
+
+	conocenos : function(req, res, next){
+		res.render('extras/conocenos', {title: "CAT project - Conócenos"})
+	}
 }
