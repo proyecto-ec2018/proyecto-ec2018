@@ -23,18 +23,44 @@ block content
             li()="waissmanjulio@gmail.com"
 
         div(class="col-md-9 col-xs-6 col-sm-6 panel_derecho" style="margin-left:200px; margin-right:200px;")
-          h1(class="text-center titulo_proyecto")="Implementación para una poda alfa-beta"
-          h3(class="text-justify:")="Descripción:"
+          
+          div(class="container well")
+            div(class='row')
+              div(class='col-md-4')
+                img(src="/images/lcc.jpeg" class='img-responsive')
+              div(class='col-md-8')
+                h1(class="text-center titulo_proyecto" style='margin-top: 15%;')="Implementación para una poda alfa-beta
+              
+          div(class="container")
+            div(class="col-md-6 well container")
+              div(class="row")
+                div(class="col-md-12")
+                  h3(class="text-center")="DÍAS RESTANTES:"  
+              div(class="row")
+                div(class="col-md-12")
+                  h1(class="text-center" style="color: #0f6bff")="10"  
+              div(class="row")
+                div(class="col-md-12")
+                  h1(class="text-center" style="color: #0f6bff")=""
+              div(class="row")
+                div(class="col-md-12")
+                  h1(class="text-center" style="color: #0f6bff")=""  
+            div(class="col-md-6 well")
+              h1(style="text-align: center;")="Premios: "
+              ul(class="list-unstyled")
+                li(style="font-size:24px;")="El ganador obtendrá la publicación de su proyecto en la revista del departamento de matemáticas"
+          hr
+          h1(class="text-justify:")="Descripción:"
           p(class="text-justify")="Dentro de la Licenciatura en Ciencias de la Computación contamos con la materia en inteligencia artificial. Hemos creado una implementación del algoritmo minimax para el árbol de juego generado por el juego del gato 81 y por motivos de optimización buscamos que sea implementada la poda alfa-beta. Los archivos necesarios se enlistan a continuación."
-
-          h3(class="text-justify:")="Archivos:"
+          hr
+          h1(class="text-justify:")="Archivos:"
           ul(class="list-unstyled")
             li()
               a(href="#" style='color:blue;text-decoration: underline;')="Minimax.py"
             li()
               a(href="#" style='color:blue;text-decoration: underline;')="Arbol_de_juego.pdf"
 
-          h3(class="text-justify:")="Bases:"
+          h1(class="text-justify:")="Bases:"
           p(class="text-justify")="Consideramos necesario sentar las siguientes bases:"
           ul(class="list-unstyled" style="margin-left: 20px;")
             li()="El desarrollo de la implementación deberá ser individual o en equipo de máximo tres personas"
@@ -42,14 +68,8 @@ block content
             li()="La implementación de una solución debe contar con su respectiva documentación"
             li()="La solución debe ser completamente propia y exponer el por qué se ha decidido realizar todo de cierta forma"
             li()="Solo han de participar personas de una institución de nivel superior"
-
-          h3(class="text-justify:")="Premios"
-          ul(class="list-unstyled")
-            li()="El ganador obtendrá la publicación de su proyecto en la revista del departamento de matemáticas"
-
-          h3(class="text-center")="Fecha límite de presentación: 25 de agosto de 2018"
-
-          h3(class="text-justify:")="Etiquetas:"
+            
+          hr
           ul(class="list-unstyled list-inline")
             li()
               a(href="#" class="tag")="Inteligencia artificial"
