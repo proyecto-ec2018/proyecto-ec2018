@@ -10,33 +10,39 @@ block content
         div(class="col-md-3 col-xs-6 col-sm-6 panel_izquierdo")
           div(class="wrap_image")
               img(src='/images/gato81.jpg' class="img-circle hidden-xs" alt="Cinque Terre" style="width:150px; height: 150px")
-              h4()="Datos generales"
+              h1()="Datos generales"
             
-          h4="Integrantes:"  
-          ul(class="list-unstyled" style="margin-left: 20px;")
+          h3="Integrantes:"  
+          ul(class="list-unstyled" style="margin-left: 20px;font-size:20px;")
             li()="Víctor Ariel Noriega Ortiz"
             li()="Juan Coffey Fernando"
             li()="Luis Fernando Sotomayor Samaniego"
 
-          h4="Correo de contacto: "
-          ul(class="list-unstyled" style="margin-left: 20px;")
+          h3="Correo de contacto: "
+          ul(class="list-unstyled" style="margin-left: 20px;font-size:20px;")
             li()="victornoriega7@gmail.com"
             li()="elchallenger@gmail.com"
             li()="sanlf@gmail.com"
             
-          h4="Número telefónico: "
-          ul(class="list-unstyled" style="margin-left: 20px;")
+          h3="Número telefónico: "
+          ul(class="list-unstyled" style="margin-left: 20px;font-size:20px;")
             li()="+52 662 326 565"
             li()="+52 662 229 555"
             li()="+52 662 101 279"
 
         div(class="col-md-9 col-xs-6 col-sm-6 panel_derecho" style="margin-left:200px; margin-right:200px;")
-          h1(class="text-center titulo_proyecto")="Gato81"
+          div(class="container well")
+            div(class='row')
+              div(class='col-md-4')
+                img(src="/images/ttt2.png" class='img-responsive')
+              div(class='col-md-8')
+                h1(class="text-center titulo_proyecto" style='margin-top:10%;')="Gato81"
+          hr
           h3(class="text-justify:" style="margin-left:200px;")="Descripción:"
-          p(class="text-justify" style="margin-left:200px; margin-right:200px;")="Gato81 es un videojuego desarrollado por alumnos de la licenciatura Ciencias de la Computación de la UNISON en el que ejemplificamos las librerías no estándard para la programación en C++. Además de ello, presentamos un modelo para programar un juego completamente recursivo, lo que hace más sencilla la lectura y documentación del código"
-
+          p(class="text-justify" style="margin-left:200px; margin-right:200px;font-size:20px;")="Gato81 es un videojuego desarrollado por alumnos de la licenciatura Ciencias de la Computación de la UNISON en el que ejemplificamos las librerías no estándard para la programación en C++. Además de ello, presentamos un modelo para programar un juego completamente recursivo, lo que hace más sencilla la lectura y documentación del código"
+          hr
           h3(class="text-justify:" style="margin-left:200px; margin-right:200px;")="Archivos:"
-          ul(class="list-unstyled" style="margin-left:200px; margin-right:200px;")
+          ul(class="list-unstyled" style="margin-left:200px; margin-right:200px;font-size:20px;")
             li()
               a(href="#" style='color:blue;text-decoration: underline; ')="Gato81.zip"
             li()
@@ -44,12 +50,13 @@ block content
             li()
               a(href="#" style='color:blue;text-decoration: underline;')="documentacion.pdf"
 
-          h3(class="text-justify:" style="margin-left:200px; margin-right:200px;")="Etiquetas:"
-          ul(class="list-unstyled list-inline" style="margin-left:200px; margin-right:200px;")
+          hr
+          img(src="/images/ttt.png" style="margin-left:200px; width:60%; ")
+          hr
+          ul(class="list-unstyled list-inline" style="margin-left:200px; margin-right:200px;font-size:20px;")
             li()
               a(href="#" class="tag")="Computación"
             li()
               a(href="#" class="tag")="C++"
             li()
               a(href="#" class="tag")="Videojuegos"
-          img(src="/images/ttt.png" style="margin-left:200px; width:60%; ")
